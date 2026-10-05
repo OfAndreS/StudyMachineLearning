@@ -1,0 +1,24 @@
+name: PyTorch
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - scipy
+  - tqdm
+  - pyyaml
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - torchinfo
+      - torchmetrics
+      - wandb
+      - ucimlrepo
